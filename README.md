@@ -1,5 +1,5 @@
-# spfx
-Samples and POCs
+# spfx repo
+Repo for spfx samples and POCs
 
 
 ## Simple RSS Webpart (work in progress)
