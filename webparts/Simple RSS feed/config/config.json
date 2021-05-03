@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "simple-rss-feed-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/simpleRssFeed/SimpleRssFeedWebPart.js",
+          "manifest": "./src/webparts/simpleRssFeed/SimpleRssFeedWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SimpleRssFeedWebPartStrings": "lib/webparts/simpleRssFeed/loc/{locale}.js"
+  }
+}
