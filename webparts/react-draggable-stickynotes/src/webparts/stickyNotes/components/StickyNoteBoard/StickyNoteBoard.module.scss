@@ -1,7 +1,22 @@
 @import "~office-ui-fabric-react/dist/sass/References.scss";
 
 .stickyNoteBoard {
+  h2, p, button{
+    margin-left: 10px;
+  }
+
+  button{
+    border-radius: 6px;
+    padding: 5px 10px;
+    background: "[theme: themeLighter, default: #0078d7]";
+    border: 1px solid grey;
+    font-weight: 600;
+    margin-bottom: 25px;
+    &:hover{
+      background: white;
+    }
+  }
   div[data-rbd-droppable-id="stickynotes"] {
-    display: flex;
+    // display: flex;
   }
 }
