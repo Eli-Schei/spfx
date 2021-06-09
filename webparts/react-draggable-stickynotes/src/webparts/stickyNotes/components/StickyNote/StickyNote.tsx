@@ -8,18 +8,18 @@ export interface IStickyNotesProps {
 }
 
 const StickyNote: React.FC<IStickyNotesProps> = ({ title, content, id }) => {
-  const [itemId, setItemId] = React.useState(id);
+  //const [itemId, setItemId] = React.useState(id);
 
   return (
     <div className={styles.stickyNote}>
-      <i onClick={()=>{deleteItem(itemId)}}>X</i>
+      {/* <i onClick={()=>{deleteItem(itemId)}}>X</i> */}
       <h2>{title}</h2>
       <p>{content}</p>
     </div>
   );
 
   function deleteItem(id: number){
-    console.log("delete" + itemId)
+   // console.log("delete" + itemId)
   }
 };
 
