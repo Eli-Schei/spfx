@@ -1,8 +1,9 @@
-# react-draggable-stickynotes
+# Draggable Sticky Notes
 
 ## Summary
 
-Short summary on functionality and used technologies.
+A webpart that displayes list items* as "Sticky notes". The notes are draggable so you can change places just by drag'n'drop. Add new items, or delete existing items from the webpart.
+
 
 [picture of the solution in action, if possible]
 
@@ -25,14 +26,15 @@ Short summary on functionality and used technologies.
 
 Solution|Author(s)
 --------|---------
-folder name | Author details (name, company, twitter alias with link)
+all | Eli H. Schei [@acupof_dev](https://twitter.com/acupof_dev)
+
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
+0.5|June 08, 2021|Initial release. Will display items as sticky notes - missing functionality to add/delete/edit items. 
+0.6|January 07, 2022| Updated to SPfx 1.13.1.
 
 ## Disclaimer
 
