@@ -1,0 +1,46 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.stickyNotesBoard {
+  h2, p, button{
+    margin-left: 10px;
+  }
+
+  button{
+    border-radius: 6px;
+    padding: 5px 10px;
+    background: "[theme: themeLighter, default: #0078d7]";
+    border: 1px solid grey;
+    font-weight: 600;
+    margin-bottom: 25px;
+    &:hover{
+      background: white;
+    }
+  }
+  div[data-rbd-droppable-id="stickynotes"] {
+    // display: flex;
+  }
+}
+.stickyNote {
+  float: left;
+  // border: 1px solid #333;
+  background-color: white;
+  border-radius: 6px;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  i{
+    float: right;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #d6d6d6;
+    margin-top: 10px;
+  }
+
+  .content {
+    font-size: 1rem;
+  }
+}
