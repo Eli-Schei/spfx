@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "d5ff188c-71ae-4d33-8a72-b7a0b835877c",
+  "alias": "HelloTeamsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["TeamsPersonalApp"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "HelloTeams" },
+    "description": { "default": "HelloTeams description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "HelloTeams"
+    }
+  }]
+}
